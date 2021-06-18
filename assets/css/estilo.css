@@ -1,18 +1,14 @@
 .Letra_hola{
 
-    font-family: lato,sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    color: blueviolet;
+    font-weight: 700px;
 
 }
 td {
 
-border:solid 1px;
 
 }
 
-.icon {
+.icon {  /*centrar icono*/
 
     text-align: center;
     
@@ -36,4 +32,46 @@ border:solid 1px;
     width: 100%;
     height: 100%;
     background-color: white;
+}
+
+
+
+html {
+
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+a{
+text-decoration: none;
+color: #6f0079;
+    
+}
+
+.table {
+
+
+    width: 100%;
+    border-spacing: 0px;
+}
+
+
+
+.table td,.table th {
+
+    padding: 1em;
+    text-align: left;
+}
+
+
+.fa-youtube {
+
+color: rgb(161, 161, 161);
+
+}
+
+.destacado {
+
+    background-color: rgb(253, 228, 249);
 }

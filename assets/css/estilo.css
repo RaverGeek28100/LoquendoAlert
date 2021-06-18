@@ -68,7 +68,8 @@ color: #6f0079;
 .fa-youtube {
 
 color: rgb(161, 161, 161);
-
+position: absolute;
+left: 641px;
 }
 
 .destacado {

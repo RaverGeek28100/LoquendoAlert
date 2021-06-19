@@ -61,7 +61,8 @@ color: #6f0079;
 
 color: rgb(161, 161, 161);
 position: absolute;
-left: 625px;
+left: 620px;
+
 }
 
 .fa-star {
@@ -72,4 +73,22 @@ left: 625px;
 .destacado {
 
     background-color: rgb(253, 228, 249);
+}
+
+
+.paragraph {
+
+    line-height: 1.6em;
+}
+
+.title-element{
+
+    font-weight: bold;
+   color: rgb(71, 71, 71);
+    
+}
+
+.fa-photo-video {
+
+    margin: 10px
 }

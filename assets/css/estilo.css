@@ -5,11 +5,6 @@
 }
 
 
-.icon {  /*centrar icono*/
-
-    text-align: center;
-    
-}
 
 .container {
 
@@ -67,6 +62,11 @@ color: #6f0079;
 color: rgb(161, 161, 161);
 position: absolute;
 left: 625px;
+}
+
+.fa-star {
+
+    color: rgb(255, 210, 9)
 }
 
 .destacado {

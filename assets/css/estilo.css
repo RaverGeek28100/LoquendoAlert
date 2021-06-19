@@ -41,6 +41,13 @@
     box-shadow: 0px 0px 1.4px;
     /*para absolute del actions*/
     position: relative;
+
+    /*espacios*/
+    padding: 1.8em;
+
+    /*recortar los textos de mi caja con scroll*/
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 

@@ -39,9 +39,36 @@
     /*shadow*/
 
     box-shadow: 0px 0px 1.4px;
+    /*para absolute del actions*/
+    position: relative;
 }
 
 
+
+.actions {
+position: absolute;
+right: 1em;
+top: 1em;
+
+
+}
+
+.close{
+
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: purple;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1.4px;
+
+  
+}
 
 html {
 
@@ -55,6 +82,19 @@ text-decoration: none;
 color: #6f0079;
     
 }
+
+a:hover {
+
+    opacity: .4;
+    
+}
+
+a.close:active{
+ 
+    background-color: rgb(250, 31, 250);
+
+}
+
 
 .table {
 

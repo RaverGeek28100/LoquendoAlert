@@ -128,13 +128,17 @@ a.close:active{
 color: rgb(184, 183, 183);
 position: relative;
 left: 23px;
-
+font-size: 15px;
 }
 
 .fa-youtube:hover {
 
     color: red;
+    transition-duration: .3s;
+transition-property: color;
+
 }
+
 
 .fa-star {
 

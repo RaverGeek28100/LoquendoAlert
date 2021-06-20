@@ -163,6 +163,9 @@ left: 23px;
 
     font-weight: bold;
    color: rgb(71, 71, 71);
+
+   /* para no ignorar el margen del responsive*/
+   display: inline-block;
    
 }
 

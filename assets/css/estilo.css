@@ -191,17 +191,15 @@ transition-property: color;
         display: block;
         font-weight: bold;
         width: 100%;
-        position: relative;
+        
     }
     th{
         display: none;
     }
     .fa-youtube {
 
-        font-size: 25px;
-        position: absolute;
-        left: 330px;
-        bottom: 80px;
+        font-size: 29px;
+        
     }
 
     td:nth-of-type(1) {
@@ -212,6 +210,12 @@ transition-property: color;
    
 
 }  
+
+
+
+    
+
+}
 
 @media (min-height:550px) {
 .content{

@@ -33,7 +33,7 @@
     max-width: 960px;
     max-height: 500px;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color: white;
 
     /*shadow*/
@@ -176,4 +176,46 @@ transition-property: color;
 .fa-photo-video {
 
     margin: 10px
+}
+
+/*responsive*/
+@media (max-width:600px) {
+
+    .content {
+
+        padding:1em;
+    }
+
+    td{
+
+        display: block;
+        font-weight: bold;
+        width: 100%;
+        position: relative;
+    }
+    th{
+        display: none;
+    }
+    .fa-youtube {
+
+        font-size: 25px;
+        position: absolute;
+        left: 330px;
+        bottom: 80px;
+    }
+
+    td:nth-of-type(1) {
+
+        font-size: 25px;
+    }
+    
+   
+
+}  
+
+@media (min-height:550px) {
+.content{
+    height: 500px;
+}
+
 }

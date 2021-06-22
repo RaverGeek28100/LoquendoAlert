@@ -145,7 +145,7 @@ transition-property: color;
     color: rgb(255, 210, 9)
 }
 
-.destacado {
+tr.destacado {
 
     background-color: rgb(253, 228, 249);
 }
@@ -207,7 +207,11 @@ transition-property: color;
         font-size: 25px;
     }
     
-   
+    tr {
+
+        background-color: rgb(254, 255, 224);
+    }
+    
 
 }  
 

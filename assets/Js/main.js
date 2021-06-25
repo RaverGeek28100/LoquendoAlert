@@ -26,7 +26,7 @@ Links.forEach(function(link) {
                         //para server
                         location.href="/LoquendoAlert";
                         
-                    }, 601);
+                    }, 600);
 
 
 
@@ -68,7 +68,7 @@ Bio.forEach(function(link) {
                         //para server
                         location.href="LoquendoAlert/assets/html/Biografia.html";
                         
-                    }, 601);
+                    }, 600);
 
 
 

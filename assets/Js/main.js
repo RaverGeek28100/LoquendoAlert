@@ -66,7 +66,7 @@ Bio.forEach(function(link) {
 
                     setTimeout(function() {
                         //para server
-                        location.href="/assets/html/Biografia.html";
+                        location.href="LoquendoAlert/assets/html/Biografia.html";
                         
                     }, 601);
 
